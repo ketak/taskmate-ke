@@ -23,7 +23,7 @@ DEBUG = env.bool("DJANGO_DEBUG")
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "web-production-a8cff.up.railway.app"]
 
-CSRF_TRUSTED_ORIGINS = ["web-production-a8cff.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-a8cff.up.railway.app"]
 
 # Application definition
 
